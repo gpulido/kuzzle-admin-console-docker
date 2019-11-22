@@ -7,7 +7,7 @@ RUN apk add --no-cache git && \
     apk add --no-cache g++ && \
     apk add --no-cache make
 
-RUN git clone --branch 2.5.3 https://github.com/kuzzleio/kuzzle-admin-console
+RUN git clone --branch 3.0.0 https://github.com/kuzzleio/kuzzle-admin-console
 
 WORKDIR ./kuzzle-admin-console
 RUN npm install
